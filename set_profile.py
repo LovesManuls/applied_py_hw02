@@ -7,7 +7,6 @@ from aiogram.fsm.context import FSMContext
 from aiogram import types
 from aiogram import Router, F
 from aiogram.types import Message
-from aiogram.exceptions import ValidationError as ValError
 from calcs import *
 from random import choice
 from string import ascii_letters
